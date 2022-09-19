@@ -97,12 +97,10 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-call pathogen#infect()
 filetype off
 syntax on
 filetype plugin indent on
 
-set statusline=%{fugitive#statusline()}
 
 " Override file detection to set any .i file to by SWIG syntax highlighting
 au BufRead,BufNewFile *.i set syn=swig
@@ -120,7 +118,6 @@ let g:doxygen_enhanced_color=0
 let g:load_doxygen_syntax=1
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list=1
