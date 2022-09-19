@@ -112,7 +112,7 @@ set shiftwidth=2
 hi CursorLine   cterm=underline ctermbg=none ctermfg=none guibg=white guifg=none
 set cursorline
 set lcs=trail:·,tab:»·
-set list
+set nolist
 
 let g:doxygen_enhanced_color=0
 let g:load_doxygen_syntax=1
