@@ -17,4 +17,8 @@ will slip in.
 * md_linklist.py -- Asks user for a file name number of links and generates an empty list of markdown hyperlinks for the user to populate manually  
 * tweet_locator.py -- Takes a tweet ID and returns the location the tweet was posted from if present
 
+### dotfiles
+* .bash_profile -- My preferred prompt, syntax highlighting, aliases and so on
+* .vimrc -- vim is great! You should use it and make bad jokes about how hard it is to exit.
+
 
