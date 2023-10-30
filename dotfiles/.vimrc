@@ -109,7 +109,7 @@ set expandtab
 set shiftwidth=2
 
 
-hi CursorLine   cterm=underline ctermbg=none ctermfg=none guibg=white guifg=none
+hi CursorLine   cterm=underline ctermbg=NONE ctermfg=NONE guibg=white gufg=NONE
 set cursorline
 set lcs=trail:·,tab:»·
 set nolist
